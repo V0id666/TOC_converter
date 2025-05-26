@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            System.out.println("🔢 Enter a regular expression (e.g., ab(c|d)*): ");
+            System.out.println("🔢 Enter a regular expression: "); //(e.g., ab(c|d)*)
             String regex = scanner.nextLine();
 
             System.out.println("📥 Enter a test input string: ");
